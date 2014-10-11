@@ -1,0 +1,70 @@
+{
+  "id": "63c9634d",
+  "cfgVersion": 1,
+  "name": "Mejorando.LA portafolio",
+  "files": {
+    "418d1304": {
+      "id": "418d1304",
+      "pid": "63c9634d",
+      "name": "estilo.styl",
+      "input": "static\\stylus\\estilo.styl",
+      "customOutput": false,
+      "type": "Stylus",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "nib": true,
+        "compress": false,
+        "autoprefixer": false,
+        "config": {
+          "nib": false
+        }
+      }
+    }
+  },
+  "imports": {
+    "2ce7ec0c": {
+      "id": "2ce7ec0c",
+      "pid": "63c9634d",
+      "path": "static\\stylus\\normalize.styl",
+      "parents": [
+        "418d1304"
+      ]
+    }
+  },
+  "images": {},
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
