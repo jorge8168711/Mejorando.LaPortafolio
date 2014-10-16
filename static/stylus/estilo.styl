@@ -1,5 +1,151 @@
 @import 'nib'
-@import 'normalize'
 
-normalize()
+color1 = #2ABB9B
+color2 = #4ECDC4
 
+body
+    font-family 'open sans'
+    font-size 16px
+
+/*Utilidades*/
+
+.u-title
+    border-bottom 2px dashed color2
+    color color2
+    font-weight normal
+    padding 0 0 .5em 0
+    text-align center
+
+/*MainMenu*/
+
+.MainMenu
+    background color1
+    height 3.75em
+    left 0
+    position fixed
+    right 0
+    text-align center
+    top 0
+
+.MainMenu-list
+    margin 0
+    padding 0
+
+.MainMenu-item
+    display inline-block
+    margin 0 1.5em 0 0
+
+.MainMenu-link
+    color white
+    line-height 3.75em
+    margin 0
+    padding 0
+    text-decoration none
+    transition all .2s
+
+.MainMenu-link:hover
+    padding 1em
+    background rgba(white, .5)
+
+/* Header */
+
+.Header
+    background color2
+    height 350px
+    margin 3.75em 0 0 0
+    padding 1em
+    text-align center
+
+.Header-imageContainer
+    margin 0
+
+.Header-image
+    border solid 5px white
+    border-radius 50%
+    width 220px
+
+.Header-link
+.Header-name
+    color white
+
+.Header-link
+    font-size 2.2em
+    font-weight bold
+    text-decoration none
+
+.Header-name
+    font-size 1.5em
+    font-weight 300
+    margin 0
+
+/*profile*/
+
+.profile
+    text-align center
+
+.profile-link
+    background orange
+    border-radius 2em
+    color white
+    margin 0 .5em 0 0
+    padding .5em 1em
+    text-decoration none
+
+/*work*/
+
+.work
+    margin-top 2em
+    text-align center
+
+.work-item
+    display inline-block
+
+.work-imageContainer
+    border 2px dashed peru
+    height 150px
+    margin 0 1.8em 1.8em 0
+    width 200px
+
+.work-image
+    display none
+
+.work-description
+    color gray
+    font-size 1.1em
+    font-style italic
+
+/* footer */
+
+.footer
+    background color1
+    padding 2em 0
+    text-align center
+
+.footer-left
+    display inline-block
+    text-align center
+    vertical-align top
+    width 32em
+
+.footer-form
+    display inline-block
+    text-align center
+
+.footer-formInput
+.footer-textarea
+    background white
+    border none
+    border-radius 2em
+    display block
+    margin 0 0 1em 0
+    padding .5em
+
+.footer-textarea
+    resize none
+
+.footer-button
+    background orange
+    border none
+    border-radius 1em
+    color white
+    padding .5em
