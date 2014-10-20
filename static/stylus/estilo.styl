@@ -1,151 +1,255 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?il6y0j');
+    src:url('../fonts/icomoon.eot?#iefixil6y0j') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?il6y0j') format('woff'),
+        url('../fonts/icomoon.ttf?il6y0j') format('truetype'),
+        url('../fonts/icomoon.svg?il6y0j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import 'nib'
 
-color1 = #2ABB9B
-color2 = #4ECDC4
+color1 = #4183D7
+color2 = lighten(#22A7F0, 20%)
 
-body
-    font-family 'open sans'
-    font-size 16px
+    body
+        font-family 'open sans'
+        font-size 16px
 
 /*Utilidades*/
+    .u-containerDefault
+        margin 1em auto
+        width 75%
 
-.u-title
-    border-bottom 2px dashed color2
-    color color2
-    font-weight normal
-    padding 0 0 .5em 0
-    text-align center
+    .u-title
+        border-bottom 2px dashed color2
+        color color2
+        font-weight normal
+        padding 0 0 .5em 0
+        text-align center
+
+    .u-headerIcon
+        border solid 3px white
+        border-radius 50%
+        color white
+        display inline-block
+        font-family 'icomoon'
+        font-size 50px
+        font-weight normal
+        margin 0 10px
+        padding 15px
+        text-decoration none
+        transition all .2s ease
+        vertical-align middle
+
+        &:hover
+          text-shadow 0 0 10px rgba(black, .3)
+
+    .u-profileLlink
+        border-radius .5em
+        color white
+        display inline-block
+        margin 0 .5em 0 0
+        padding .5em .5em
+        text-align center
+        text-decoration none
+
+        &:before
+            display inline-block
+            font-family 'icomoon'
+            font-size 25px
+            padding 0 .25em
+            vertical-align middle
+
+        &:hover
+            box-shadow 0 0 10px rgba(black, .3)
 
 /*MainMenu*/
 
-.MainMenu
-    background color1
-    height 3.75em
-    left 0
-    position fixed
-    right 0
-    text-align center
-    top 0
+    .MainMenu
+        background color1
+        height 3.75em
+        left 0
+        position fixed
+        right 0
+        text-align center
+        top 0
 
-.MainMenu-list
-    margin 0
-    padding 0
+    .MainMenu-list
+        margin 0
+        padding 0
 
-.MainMenu-item
-    display inline-block
-    margin 0 1.5em 0 0
+    .MainMenu-item
+        display inline-block
+        margin 0 1.5em 0 0
 
-.MainMenu-link
-    color white
-    line-height 3.75em
-    margin 0
-    padding 0
-    text-decoration none
-    transition all .2s
+    .MainMenu-link
+        border-bottom solid 0px transparent
+        color white
+        font-weight bold
+        line-height 3.75em
+        margin 0
+        padding 0 .5em
+        text-decoration none
+        transition all .4s
 
-.MainMenu-link:hover
-    padding 1em
-    background rgba(white, .5)
+    .MainMenu-link:hover
+        background rgba(white, .2)
+        padding 1.2em
 
-/* Header */
+/*Header*/
 
-.Header
-    background color2
-    height 350px
-    margin 3.75em 0 0 0
-    padding 1em
-    text-align center
+    .Header
+        background color2
+        height 350px
+        margin 3.75em 0 0 0
+        padding 1em
+        position relative
+        text-align center
+        z-index 100
 
-.Header-imageContainer
-    margin 0
+    .Header-imageContainer
+        display inline-block
+        margin 0 auto
 
-.Header-image
-    border solid 5px white
-    border-radius 50%
-    width 220px
+    .Header-icon1:before
+        content '\e600'
 
-.Header-link
-.Header-name
-    color white
+    .Header-icon2:before
+        content '\e601'
 
-.Header-link
-    font-size 2.2em
-    font-weight bold
-    text-decoration none
+    .Header-image
+        border solid 5px white
+        border-radius 50%
+        box-shadow 0 0 10px rgba(black, .3)
+        display inline-block
+        vertical-align middle
+        width 220px
 
-.Header-name
-    font-size 1.5em
-    font-weight 300
-    margin 0
+    .Header-link
+    .Header-name
+        color white
+
+    .Header-link
+        font-size 2.2em
+        font-weight bold
+        text-decoration none
+        transition all .2s ease
+        &:hover
+          text-shadow 0 0 10px rgba(black, .3)
+
+    .Header-name
+        font-size 1.5em
+        font-weight 300
+        margin 0
 
 /*profile*/
 
-.profile
-    text-align center
+    .profile
+        text-align center
 
-.profile-link
-    background orange
-    border-radius 2em
-    color white
-    margin 0 .5em 0 0
-    padding .5em 1em
-    text-decoration none
+    .profile-link1
+        background #333333
+        &:before
+            content '\f09b'
+
+    .profile-link2
+        background #55acee
+        &:before
+            content '\f099'
+
+    .profile-link3
+        background #3B5998
+        &:before
+            content '\f09a'
+
+    .profile-skills
+        display inline-block
+        margin 1em
+        text-align left
+        width 42%
+
+        &:before
+            color color2
+            content '\f058'
+            display block
+            float left
+            font-family 'icomoon'
+            font-size 45px
+            margin 0 10px
 
 /*work*/
 
-.work
-    margin-top 2em
-    text-align center
+    .work
+        margin-top 2em
+        text-align center
 
-.work-item
-    display inline-block
+    .work-item
+        display inline-block
 
-.work-imageContainer
-    border 2px dashed peru
-    height 150px
-    margin 0 1.8em 1.8em 0
-    width 200px
+    .work-imageContainer
+        margin 1em
+        padding 0
 
-.work-image
-    display none
+    .work-image
+        box-shadow 0 0 5px rgba(black, .3)
+        cursor pointer
+        height 200px
+        transition all .3s
+        width auto
 
-.work-description
-    color gray
-    font-size 1.1em
-    font-style italic
+        &:hover
+            border-radius 50%
+            opacity .8
+
+    .work-description
+        color gray
+        font-size 1.1em
+        font-style italic
 
 /* footer */
 
-.footer
-    background color1
-    padding 2em 0
-    text-align center
+    .footer
+        background color1
+        padding 2em
+        text-align left
 
-.footer-left
-    display inline-block
-    text-align center
-    vertical-align top
-    width 32em
+    .footer-left
+        display inline-block
+        margin 0 2em 0 0
+        text-align center
+        vertical-align top
+        width 32em
 
-.footer-form
-    display inline-block
-    text-align center
+    .footer-title
+    .footer-description
+        color white
+        text-align right
 
-.footer-formInput
-.footer-textarea
-    background white
-    border none
-    border-radius 2em
-    display block
-    margin 0 0 1em 0
-    padding .5em
+    .footer-form
+        display inline-block
+        text-align left
 
-.footer-textarea
-    resize none
+    .footer-formInput
+    .footer-textarea
+        background white
+        border none
+        border-radius 5px
+        display block
+        margin 0 0 1em 0
+        padding .5em
 
-.footer-button
-    background orange
-    border none
-    border-radius 1em
-    color white
-    padding .5em
+    .footer-textarea
+        resize none
+
+    .footer-button
+        background white
+        border none
+        border-radius 1em
+        color color1
+        padding .5em
+
+        &:hover
+            box-shadow inset 0 0 5px rgba(black, .6)

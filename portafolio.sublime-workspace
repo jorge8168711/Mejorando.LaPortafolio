@@ -4,32 +4,20 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align"
-			],
-			[
-				"color",
-				"color1"
-			],
-			[
 				"font",
 				"font-size"
 			],
 			[
-				"work",
-				"work"
+				"text",
+				"text-decoration"
 			],
 			[
-				"hea",
-				"Header-image"
+				"border",
+				"border"
 			],
 			[
 				"animr",
 				"animar1"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"borde",
@@ -359,7 +347,7 @@
 			"file": "templates/portafolio.html",
 			"settings":
 			{
-				"buffer_size": 3638,
+				"buffer_size": 3985,
 				"line_ending": "Windows"
 			}
 		},
@@ -367,7 +355,7 @@
 			"file": "static/stylus/estilo.styl",
 			"settings":
 			{
-				"buffer_size": 2162,
+				"buffer_size": 3220,
 				"line_ending": "Windows"
 			}
 		}
@@ -672,17 +660,19 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/templates"
 	],
 	"file_history":
 	[
-		"/C/Users/Jorge/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/css/estilo.css",
-		"/C/Users/jorge/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
-		"/C/Portables/Sublime Text Build 3065/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/plantilla.html",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus/estilo.styl",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/templates/portafolio.html",
 		"/C/Portables/Sublime Text Build 3065 x64/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/Cosas a toma en cuenta.TODO",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/css/estilo.css",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus/estilo.styl",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LA portafolio/static/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LA portafolio/templates/portafolio.html",
@@ -701,7 +691,6 @@
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoReactivosary/index.html",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoReactivosary/Public/js/main.js",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_LOGIN/Files/inicio.php",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/plantilla.html",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/js/plantilla.js",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/css/plantilla.styl",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/css/plantilla.css",
@@ -802,7 +791,9 @@
 		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/js/prefixfree.min.js",
 		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/js/jquery.autosize.js",
 		"/C/Users/jorge/AppData/Roaming/Sublime Text 2/Packages/Stylus/Stylus.sublime-settings",
-		"/C/Users/jorge/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-settings"
+		"/C/Users/jorge/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-settings",
+		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/Editor.sublime-project",
+		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/Editor.sublime-workspace"
 	],
 	"find":
 	{
@@ -820,14 +811,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"font-family",
-			"Eduardo",
-			"input",
-			"Footer",
-			"Work",
-			"Profile",
-			"u-title",
-			"5em",
+			"10px",
+			"5.75em",
+			"10px",
+			"/a",
+			"a href=\"#\"",
+			"imageCon",
+			"3.75em",
+			"u-containerDefault",
+			"Jorge",
 			"u-title",
 			"utitle",
 			".bar",
@@ -946,8 +938,7 @@
 			"45px",
 			"red",
 			"white",
-			"f0c0",
-			"img"
+			"f0c0"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -974,15 +965,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3638,
+						"buffer_size": 3985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								372,
-								372
+								830,
+								830
 							]
 						],
 						"settings":
@@ -990,36 +981,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1035,16 +1001,41 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
@@ -1053,30 +1044,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "static/stylus/estilo.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2162,
+						"buffer_size": 3220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								618,
+								618
 							]
 						],
 						"settings":
@@ -1084,36 +1069,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1129,24 +1089,51 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 184.0,
+						"translation.y": 248.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1154,7 +1141,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1169,18 +1156,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.629291679941,
 			1.0
 		],
 		"rows":
@@ -1201,7 +1181,7 @@
 	"project": "portafolio.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1228,14 +1208,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 258.0,
 	"status_bar_visible": true,
 	"template_settings":
