@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"text",
-				"text-decoration"
+				"color",
+				"color1"
 			],
 			[
 				"border",
 				"border"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"work",
+				"work"
+			],
+			[
+				"hea",
+				"Header-image"
 			],
 			[
 				"animr",
@@ -100,20 +120,12 @@
 				"filtrarSeccionOpcDeRespuesta"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"in",
 				"input"
 			],
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"tra",
-				"transparent"
 			],
 			[
 				"line",
@@ -347,7 +359,7 @@
 			"file": "templates/portafolio.html",
 			"settings":
 			{
-				"buffer_size": 3985,
+				"buffer_size": 6471,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,7 +367,15 @@
 			"file": "static/stylus/estilo.styl",
 			"settings":
 			{
-				"buffer_size": 3220,
+				"buffer_size": 5096,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jorge/Desktop/Aplicaciones CONAMEGE/Pendientes.TODO",
+			"settings":
+			{
+				"buffer_size": 5946,
 				"line_ending": "Windows"
 			}
 		}
@@ -363,9 +383,21 @@
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 85.0,
 		"selected_items":
 		[
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
 			[
 				"pacak",
 				"Package Control: Upgrade Package"
@@ -373,14 +405,6 @@
 			[
 				"paca",
 				"Package Control: Install Package"
-			],
-			[
-				"wor",
-				"Word Wrap: Toggle"
-			],
-			[
-				"word",
-				"Word Wrap: Toggle"
 			],
 			[
 				"task",
@@ -413,10 +437,6 @@
 			[
 				"html	",
 				"Set Syntax: HTML"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
 			],
 			[
 				"html",
@@ -660,19 +680,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/templates"
 	],
 	"file_history":
 	[
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/plantilla.html",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus/estilo.styl",
-		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/templates/portafolio.html",
+		"/C/Users/Jorge/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/css/estilo.css",
+		"/C/Users/jorge/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
+		"/C/[1] Miguel/C/Medicina-CONAMEGE/conamege9/m7res.bb",
+		"/C/[1] Miguel/C/Medicina-CONAMEGE/conamege9/M9CCONF",
+		"/C/[1] Miguel/C/Medicina-CONAMEGE/conamege9/M7TTEM",
+		"/C/[1] Miguel/C/Medicina-CONAMEGE/conamege9/M9BCAL",
+		"/C/Portables/Sublime Text Build 3065/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Portables/Sublime Text Build 3065/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Portables/Sublime Text Build 3065/Data/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
 		"/C/Portables/Sublime Text Build 3065 x64/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/Cosas a toma en cuenta.TODO",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/css/estilo.css",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/stylus/estilo.styl",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LaPortafolio/static/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LA portafolio/static/portafolio.sublime-project",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/Proyectos personales/Mejorando.LA portafolio/templates/portafolio.html",
@@ -691,6 +715,7 @@
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoReactivosary/index.html",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoReactivosary/Public/js/main.js",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_LOGIN/Files/inicio.php",
+		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/plantilla.html",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/js/plantilla.js",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/css/plantilla.styl",
 		"/C/Users/JorgeEduardo/Dropbox/Apps/GitHub/htdocs/BancoDeReactivosWEB_2.0_PLANTILLA/css/plantilla.css",
@@ -785,19 +810,11 @@
 		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/css/normalize.css",
 		"/C/Users/jorge/Dropbox/Apps/GitHub/httdocs/BancoReactivos/index.html",
 		"/C/xampp/htdocs/BancoReactivos/index.html",
-		"/C/xampp/htdocs/index.php",
-		"/C/archcomp/BancoReactivos/index__.html",
-		"/C/archcomp/BancoReactivos/Files/v_seleccion.php",
-		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/js/prefixfree.min.js",
-		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/js/jquery.autosize.js",
-		"/C/Users/jorge/AppData/Roaming/Sublime Text 2/Packages/Stylus/Stylus.sublime-settings",
-		"/C/Users/jorge/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-settings",
-		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/Editor.sublime-project",
-		"/C/Users/jorge/Dropbox/Apps/GitHub/Edtor_WEB/Editor.sublime-workspace"
+		"/C/xampp/htdocs/index.php"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -811,15 +828,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"10px",
-			"5.75em",
-			"10px",
-			"/a",
-			"a href=\"#\"",
-			"imageCon",
-			"3.75em",
-			"u-containerDefault",
-			"Jorge",
+			"Eduardo",
+			"75",
+			"content",
+			"wor",
+			"Es la descrpción de mi imagen",
+			"Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.",
+			"u-profileLlink",
+			"profile-link",
+			"button",
+			"“",
+			"font-family",
+			"Eduardo",
+			"input",
+			"Footer",
+			"Work",
+			"Profile",
+			"u-title",
+			"5em",
 			"u-title",
 			"utitle",
 			".bar",
@@ -929,16 +955,7 @@
 			"header",
 			"Container",
 			"2px",
-			"5px",
-			"80px",
-			"100px",
-			"50px",
-			"60px",
-			"55px",
-			"45px",
-			"red",
-			"white",
-			"f0c0"
+			"5px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -956,7 +973,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -965,15 +982,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3985,
+						"buffer_size": 6471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								830,
-								830
+								0,
+								0
 							]
 						],
 						"settings":
@@ -986,26 +1003,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1016,35 +1048,21 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_regex_content"
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1053,15 +1071,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3220,
+						"buffer_size": 5096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								618,
-								618
+								308,
+								308
 							]
 						],
 						"settings":
@@ -1074,26 +1092,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1104,36 +1137,109 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/jorge/Desktop/Aplicaciones CONAMEGE/Pendientes.TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5441,
+								5441
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 248.0,
+						"translation.y": 2024.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1141,7 +1247,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1181,7 +1287,7 @@
 	"project": "portafolio.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
