@@ -16,18 +16,18 @@ color2 = lighten(#22A7F0, 20%)
 //*********************
 //*****UTILIDADES******
 //*********************
-    .u-ContainerDefault
-        margin 1em auto
+    .u-Porta_ContainerDefault
+        margin .5em auto
         width 90%
 
-    .u-Title
+    .u-Porta_Title
         border-bottom 2px dashed color2
         color color2
         font-weight normal
         padding 0 0 .5em 0
         text-align center
 
-    .u-HeaderIcon
+    .u-Porta_HeaderIcon
         border solid 3px white
         border-radius 50%
         color white
@@ -38,13 +38,13 @@ color2 = lighten(#22A7F0, 20%)
         margin 0 10px
         padding 15px
         text-decoration none
-        transition all .2s ease
+        transition all .3s ease
         vertical-align middle
 
         &:hover
           text-shadow 0 0 10px rgba(black, .3)
 
-    .u-ProfileLink
+    .u-Porta_ProfileLink
         border-radius 3px
         color white
         display inline-block
@@ -66,7 +66,7 @@ color2 = lighten(#22A7F0, 20%)
 //*********************
 //********MENU*********
 //*********************
-    .Menu
+    .Porta_Menu
         background color1
         height 3.75em
         left 0
@@ -75,31 +75,32 @@ color2 = lighten(#22A7F0, 20%)
         text-align center
         top 0
 
-    .Menu-list
-        margin 0
-        padding 0
+        &-list
+            margin 0
+            padding 0
 
-    .Menu-item
-        display inline-block
-        margin 0 1.5em 0 0
+        &-item
+            display inline-block
+            margin 0 1.5em 0 0
 
-    .Menu-link
-        color white
-        font-weight bold
-        line-height 3.75em
-        margin 0
-        padding 1.4em .5em
-        text-decoration none
-        transition all .4s
+        &-link
+            color white
+            font-weight bold
+            line-height 3.75em
+            margin 0
+            padding 1.4em .5em
+            text-decoration none
+            transition all .3s
 
-        &:hover
-            padding .25em
-            border-bottom 2px solid white
+            &:hover
+                padding .25em
+                border-bottom 2px solid white
+                border-top 2px solid white
 
 //*********************
 //*****HEADER******
 //*********************
-    .Header
+    .Porta_Header
         background color2
         height 350px
         margin 3.75em 0 0 0
@@ -108,142 +109,142 @@ color2 = lighten(#22A7F0, 20%)
         text-align center
         z-index 100
 
-    .Header-imageContainer
-        display inline-block
-        margin 0 auto
+        &-imageContainer
+            display inline-block
+            margin 0 auto
 
-    .Header-icon1:before
-        content '\e600'
+        &-icon1:before
+            content '\e600'
 
-    .Header-image
-        border solid 5px white
-        border-radius 50%
-        box-shadow 0 0 10px rgba(black, .3)
-        display inline-block
-        vertical-align middle
-        width 220px
+        &-image
+            border solid 5px white
+            border-radius 50%
+            box-shadow 0 0 10px rgba(black, .3)
+            display inline-block
+            vertical-align middle
+            width 220px
 
-    .Header-icon2:before
-        content '\e601'
+        &-icon2:before
+            content '\e601'
 
-    .Header-link
-    .Header-name
-        color white
+        &-link
+        &-name
+            color white
 
-    .Header-link
-        font-size 2.2em
-        font-weight bold
-        text-decoration none
-        transition all .2s ease
+        &-link
+            font-size 2.2em
+            font-weight bold
+            text-decoration none
+            transition all .3s ease
 
-        &:hover
-          text-shadow 0 0 10px rgba(black, .3)
+            &:hover
+              text-shadow 0 0 10px rgba(black, .3)
 
-    .Header-name
-        font-size 1.5em
-        font-weight 300
-        margin 0
+        &-name
+            font-size 1.5em
+            font-weight 300
+            margin 0
 
 //*********************
 //*******PERFIL********
 //*********************
-    .Profile
+    .Porta_Profile
         text-align center
 
-    .Profile-link1
-        background #333
-        border 1px solid #111
-        box-shadow 1px 2px 0 #111
+        &-link1
+            background #333
+            border 1px solid #111
+            box-shadow 1px 2px 0 #111
 
-        &:before
-            content '\f09b'
+            &:before
+                content '\f09b'
 
-    .Profile-link2
-        background #4eb9f3
-        border 1px solid #1b9ac7
-        box-shadow 1px 2px 0 #1b9ac7
+        &-link2
+            background #4eb9f3
+            border 1px solid #1b9ac7
+            box-shadow 1px 2px 0 #1b9ac7
 
-        &:before
-            content '\f099'
+            &:before
+                content '\f099'
 
-    .Profile-link3
-        background #1e62a9
-        border 1px solid #143f72
-        box-shadow 1px 2px 0 #143f72
+        &-link3
+            background #1e62a9
+            border 1px solid #143f72
+            box-shadow 1px 2px 0 #143f72
 
-        &:before
-            content '\f09a'
+            &:before
+                content '\f09a'
 
-    .Profile-skills
-        display inline-block
-        margin 1em
-        text-align left
-        width 42%
+        &-skills
+            display inline-block
+            margin 1em
+            text-align left
+            width 42%
 
-        &:before
-            color color2
-            content '\f058'
-            display block
-            float left
-            font-family 'portafolio'
-            font-size 45px
-            margin 0 10px
+            &:before
+                color color2
+                content '\f058'
+                display block
+                float left
+                font-family 'portafolio'
+                font-size 45px
+                margin 0 10px
 
 //*********************
 //******TRABAJO********
 //*********************
-    .Work
+    .Porta_Work
         margin-top 2em
         text-align center
 
-    .Work-item
-        display inline-block
+        &-item
+            display inline-block
 
-    .Work-imageContainer
-        margin 1em
-        padding 0
+        &-imageContainer
+            margin 1em
+            padding 0
 
-    .Work-image
-        box-shadow 0 0 5px rgba(black, .5)
-        cursor pointer
-        height 200px
-        transition all .3s
-        width auto
+        &-image
+            box-shadow 0 0 5px rgba(black, .5)
+            cursor pointer
+            height 200px
+            transition all .3s
+            width auto
 
-        &:hover
-            border-radius 50%
+            &:hover
+                border-radius 50%
 
-    .Work-description
-        color gray
-        font-size 1.1em
-        font-style italic
+        &-description
+            color gray
+            font-size 1.1em
+            font-style italic
 
 //*********************
 //******FOOTER********
 //*********************
-    .Footer
+    .Porta_Footer
         background color1
         padding 2em
         text-align left
 
-    .Footer-left
+    .Porta_Footer-left
         display inline-block
         margin 0 2em 0 0
         text-align center
         vertical-align top
         width 32em
 
-    .Footer-title
-    .Footer-description
+    .Porta_Footer-title
+    .Porta_Footer-description
         color white
         text-align right
 
-    .Footer-form
+    .Porta_Footer-form
         display inline-block
         text-align left
 
-    .Footer-formInput
-    .Footer-textarea
+    .Porta_Footer-formInput
+    .Porta_Footer-textarea
         background white
         border none
         border-radius 5px
@@ -251,10 +252,10 @@ color2 = lighten(#22A7F0, 20%)
         margin 0 0 1em 0
         padding .5em
 
-    .Footer-textarea
+    .Porta_Footer-textarea
         resize none
 
-    .Footer-button
+    .Porta_Footer-button
         background white
         border none
         border-radius 3px
@@ -265,55 +266,55 @@ color2 = lighten(#22A7F0, 20%)
             box-shadow inset 0 0 5px rgba(black, .6)
 
 @media screen and (max-width 600px)
-    .u-ContainerDefault
+    .u-Porta_ContainerDefault
         padding 2%
         width 96%
 
-    .Profile-skills
+    .Porta_Profile-skills
         text-align left
         display block
         margin 1.5em 2%
         width 96%
 
 @media screen and (max-width 500px)
-    .u-HeaderIcon
+    .u-Porta_HeaderIcon
         border solid 2px white
         font-size 30px
         margin 0 .1em
         padding 10px
 
-    .u-ProfileLink
+    .u-Porta_ProfileLink
         display block
         margin .5em
         padding .5em .5em
 
-    .Header
+    .Porta_Header
         height 230px
 
-    .Header-image
+    .Porta_Header-image
         width 130px
 
-    .Menu-item
+    .Porta_Menu-item
         margin 0 .5em 0 0
 
 @media screen and (max-width 830px)
-    .Footer
+    .Porta_Footer
         padding .5em
         text-align left
 
-    .Footer-left
-    .Footer-form
+    .Porta_Footer-left
+    .Porta_Footer-form
         display block
         margin 0
         padding 0 1%
         width 96%
 
-    .Footer-title
-    .Footer-description
+    .Porta_Footer-title
+    .Porta_Footer-description
         text-align left
         margin 0 0 .5em 0
 
-    .Footer-formInput
-    .Footer-textarea
+    .Porta_Footer-formInput
+    .Porta_Footer-textarea
         margin .5em auto
         width 96%
